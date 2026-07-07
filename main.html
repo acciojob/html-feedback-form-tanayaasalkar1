@@ -11,16 +11,16 @@
 	<h1>Feedback Form</h1>
 	<form method="POST">
 		<label for="name">Name</label>
-		<input type="Text" minlength="3" maxlength="50" required >
+		<input type="Text" id="name" name="name" minlength="3" maxlength="50" required >
 
 		<label for="portfolio">Portfolio</label>
-		<input type="URL" id="portfolio" required>
+		<input type="URL" name="portfolio" id="portfolio" required>
 
 		<label for="favColor">Favorite Color</label>
-		<input type="Color" id="favColor" required>
+		<input type="Color" name="favColor" id="favColor" required>
 
 		<label for="likeness">Likeness</label>
-		<input type="Range" id="likeness" min="1" max="100" required>
+		<input type="Range" name="likeness" id="likeness" min="1" max="100" required>
 
 		<button type="submit">Submit</button>
 		
